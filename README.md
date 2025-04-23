@@ -60,6 +60,11 @@ source .venv/bin/activate       # Linux/macOS
 .venv\Scripts\activate        # Windows
 ```
 
+To end the virtual environment:
+```bash
+deactivate
+```
+
 ---
 
 ### ✅ Step 4: Install dependencies
