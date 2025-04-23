@@ -89,7 +89,7 @@ docker build -f Dockerfile -t flask-docker-app:latest .
 
 ### ✅ Step 2: Run the container
 ```bash
-docker run -d -p 5001:5001 flask-docker-app
+docker run -p 5001:5001 flask-docker-app
 ```
 
 Then open: `http://localhost:5001`
