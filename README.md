@@ -47,7 +47,7 @@ pip --version
 
 ### ✅ Step 2: Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/docker-workshop-flask-app.git
+git clone https://github.com/mrckurz/docker-workshop-flask-app.git
 cd docker-workshop-flask-app
 ```
 
