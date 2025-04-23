@@ -9,7 +9,7 @@ This is a minimal example of a Python Flask web application designed for Docker 
 The app consists of a basic Flask server that returns a greeting message on the root URL:
 
 ```
-http://localhost:5000 → "Hello from Dockerized Flask app!"
+http://localhost:5001 → "Hello from Dockerized Flask app!"
 ```
 
 ---
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-Visit `http://localhost:5000` in your browser 🎉
+Visit `http://localhost:5001` in your browser 🎉
 
 ---
 
@@ -89,10 +89,10 @@ docker build -t flask-docker-app .
 
 ### ✅ Step 2: Run the container
 ```bash
-docker run -d -p 5000:5000 flask-docker-app
+docker run -d -p 5001:5001 flask-docker-app
 ```
 
-Then open: `http://localhost:5000`
+Then open: `http://localhost:5001`
 
 ---
 
