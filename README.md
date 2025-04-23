@@ -80,11 +80,11 @@ Visit `http://localhost:5001` in your browser 🎉
 
 ## 🐳 Running with Docker
 
-If you prefer using Docker:
+To containerize the project with Docker, follow the following steps:
 
 ### ✅ Step 1: Build the image
 ```bash
-docker build -t flask-docker-app .
+docker build -f Dockerfile -t flask-docker-app:latest .
 ```
 
 ### ✅ Step 2: Run the container
